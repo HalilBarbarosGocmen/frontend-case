@@ -1,8 +1,22 @@
-# React + Vite
+Projenin oluşturulması için terminale aşağıdaki komutu yazarak başlıyoruz:
+npm create vite@latest baykar-frontend-case
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ardından çıkan seçeneklerde React ve JavaScript'i seçiyoruz. Daha sonra gerekli bağımlılıkları indirmek için şu komutu kullanıyoruz:
+npm install
 
-Currently, two official plugins are available:
+Projede Tailwind CSS kullanıldığı için, bu stil kütüphanesini kurmak için aşağıdaki komutları kullanıyoruz:
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Slider özelliğini kullanabilmek için projeye Swiper paketini eklemek gerekiyor:
+npm i swiper
+
+Bu adımları tamamladıktan sonra projenin geliştirme ortamı hazır hale gelir.
+
+Proje Hakkında Bilgi:
+
+Bu proje, React ve Tailwind CSS kullanılarak geliştirilmiş bir frontend tasarımını içerir. React, kullanıcı arayüzü bileşenlerinin oluşturulması ve yönetilmesi için kullanılırken, Tailwind CSS, hızlı ve esnek bir şekilde stil uygulamak için tercih edilmiştir.
+
+Projenin amacı, modern ve kullanıcı dostu bir arayüz tasarımı oluşturmaktır. Slider özelliği için Swiper kütüphanesi entegre edilmiş ve böylece dinamik içeriklerin görsel olarak sergilenmesi sağlanmıştır.
+
+Bu proje, Baykar Frontend Case için geliştirilmiştir ve modern web teknolojileriyle uyumlu bir şekilde hazırlanmıştır.
